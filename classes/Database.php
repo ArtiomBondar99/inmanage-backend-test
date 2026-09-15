@@ -6,8 +6,6 @@ class Database
 
     public function __construct($config)
     {
-    
-
         $host = $config["host"];
         $database = $config["database"];
         $username = $config["username"];
